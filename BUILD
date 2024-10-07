@@ -15,6 +15,7 @@ kt_jvm_library(
     name = "test",
     srcs = ["TestFile.kt"],
     deps = [
+        "@maven//:javax_inject_javax_inject",
         "@com_google_auto_factory",
         "@com_google_auto_factory//:compile",
     ],

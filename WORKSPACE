@@ -26,6 +26,7 @@ maven_install(
         "com.google.guava:guava:32.1.1-jre",
         "com.squareup:javapoet:1.13.0",
         "com.google.auto:auto-common:1.2.2",
+        "javax.inject:javax.inject:1",
     ],
     duplicate_version_warning = "error",
     fail_on_missing_checksum = True,
